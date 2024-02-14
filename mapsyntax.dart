@@ -1,9 +1,9 @@
 void main() {
-  var studentRecord = {
-    'name': 'Mariyam',
-    'rollNo': 'B2161056',
-    'department': 'BS Information Technology'
+  var Product = {
+//  Key          Value
+    'product1': 'WaterBottle',
+    'product2': 'Laptop',
+    'product3': 'SmartPhone'
   };
-  studentRecord['age'] = '20';
-  print(studentRecord['name']);
+  print(Product['product1']);
 }
